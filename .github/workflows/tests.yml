@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unittest:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.8", "3.12"]
+        exclude:
+          # Python 3.8 is not available for ubuntu-latest (24.04) in actions/setup-python
+          - os: ubuntu-latest
+            python-version: "3.8"
+        include:
+          # so run the 3.8 job on the previous LTS runner instead
+          - os: ubuntu-22.04
+            python-version: "3.8"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v

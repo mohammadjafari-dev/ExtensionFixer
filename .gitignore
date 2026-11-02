@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+
+# Exe built locally (publish it in GitHub Releases, not in the repo)
+*.exe
