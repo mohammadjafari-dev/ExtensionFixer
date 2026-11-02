@@ -12,7 +12,7 @@
 
 A file named `holiday.mp4` that refuses to play, or a `photo.jpg` that no program opens, usually has one thing in common: **the extension lies**. The letters after the dot are just a label — the *real* type is written inside the file itself as a **magic number / file signature**.
 
-**ExtensionFixer** (پسوندیاب) reads that signature, compares it with the stated extension, shows you exactly which files are mislabeled — and, if you let it, fixes the extensions. It is a small, safe, offline tool with a clean bilingual (English / Persian) interface.
+**ExtensionFixer** reads that signature, compares it with the stated extension, shows you exactly which files are mislabeled — and, if you let it, fixes the extensions. It is a small, safe, offline tool with a clean bilingual (English / Persian) interface.
 
 ## Contents
 
