@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-3776ab)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-3b6ef5)
-![Tests](https://github.com/mohamma-aa/ExtensionFixer/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/mohammadjafari-dev/ExtensionFixer/actions/workflows/tests.yml/badge.svg)
 
 **فارسی** | [English](README.md)
 
@@ -116,4 +116,4 @@ docs/               اسکرین‌شات‌ها
 
 ## لایسنس
 
-منتشرشده تحت [لایسنس MIT](LICENSE) — Copyright (c) 2026 [mohamma-aa](https://github.com/mohamma-aa).
+منتشرشده تحت [لایسنس MIT](LICENSE) — Copyright (c) 2026 Mohammad Jafari.
